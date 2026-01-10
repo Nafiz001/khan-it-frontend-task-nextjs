@@ -6,13 +6,13 @@ export default function Hero() {
       <div className="space-y-8 relative z-10">
           <div className="relative">
             <h1 className="text-5xl lg:text-[4rem] font-extrabold leading-[1.1] text-gray-900 dark:text-white tracking-tight">
-              Digital Marketing Agency in{" "}
-              <span className="relative inline-block">
-                Bangladesh
-                <svg className="absolute -top-6 -right-8 w-12 h-12 text-orange-500 animate-pulse" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                  <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" strokeLinecap="round" strokeLinejoin="round"></path>
+              Digital <span className="relative inline-block">
+                Marketing
+                <svg className="absolute -top-1 -right-8 w-12 h-12 text-orange-500" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                  <path d="M12 2L12 8M19 5L15 9M22 12L16 12" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
-              </span>
+              </span>{" "}
+              Agency in Bangladesh
             </h1>
           </div>
           <p className="text-lg lg:text-xl text-gray-500 dark:text-gray-400 max-w-lg leading-relaxed">
