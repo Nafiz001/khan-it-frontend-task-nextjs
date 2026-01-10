@@ -26,8 +26,11 @@ A modern, responsive digital marketing agency website built with Next.js 16 and 
 
 - **Next.js**: 16.1.1 with Turbopack
 - **React**: 19.2.3
-- **TypeScript**: Latest
-- **Tailwind CSS**: v3
+- **React DOM**: 19.2.3
+- **TypeScript**: ^5
+- **Tailwind CSS**: ^3.4.19
+- **PostCSS**: ^8.5.6
+- **Autoprefixer**: ^10.4.23
 - **Google Fonts**: Plus Jakarta Sans (400-800 weights)
 - **Material Icons**: Rounded and Outlined variants
 
