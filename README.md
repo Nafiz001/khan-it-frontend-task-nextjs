@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Khan IT Frontend Task - Next.js
 
-## Getting Started
+A modern, responsive digital marketing agency website built with Next.js 16 and Tailwind CSS v3.
 
-First, run the development server:
+## 🚀 Live Demo
+
+**[View Live Site](https://khan-it-frontend-task-nextjs.vercel.app/)**
+
+## 📋 Task 1 Requirements
+
+✅ **Framework**: Next.js with TypeScript  
+✅ **Styling**: Tailwind CSS v3  
+✅ **Font**: Plus Jakarta Sans from Google Fonts  
+✅ **Icons**: Material Symbols (Rounded & Outlined)  
+✅ **Responsive Design**: Mobile-first approach with full responsiveness  
+✅ **Dark Mode**: Complete dark mode support  
+
+### Features Implemented
+
+- **Navbar**: Responsive navigation with mobile hamburger menu
+- **Hero Section**: Eye-catching hero with stat cards, video case study, track record, and testimonial
+- **Services Section**: 8 service offerings with hover effects and color-coded icons
+- **CTA Section**: Call-to-action with gradient background and decorative illustrations
+
+## 🛠️ Tech Stack
+
+- **Next.js**: 16.1.1 with Turbopack
+- **React**: 19.2.3
+- **TypeScript**: Latest
+- **Tailwind CSS**: v3
+- **Google Fonts**: Plus Jakarta Sans (400-800 weights)
+- **Material Icons**: Rounded and Outlined variants
+
+## 📦 Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── globals.css       # Global styles and Tailwind directives
+│   ├── layout.tsx        # Root layout with fonts and Material Icons
+│   └── page.tsx          # Main landing page
+└── components/
+    ├── Navbar.tsx        # Responsive navigation component
+    ├── Hero.tsx          # Hero section with cards
+    ├── Services.tsx      # Services grid section
+    └── CTA.tsx           # Call-to-action section
+```
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Colors
+Primary theme colors are defined in `tailwind.config.js`:
+- Primary Blue: `#1D7BEF`
+- Card variants: Purple, Blue, Orange
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fonts
+Plus Jakarta Sans is configured in `layout.tsx` with weights 400-800.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚢 Deployment
 
-## Deploy on Vercel
+Deployed on [Vercel Platform](https://vercel.com) using Vercel CLI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Deploy to Vercel
+vercel
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Breakpoints
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+
