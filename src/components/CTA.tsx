@@ -85,7 +85,7 @@ export default function CTA() {
           Ready to Grow Your Business?
         </h2>
         <p className="text-sm md:text-sm text-blue-100 dark:text-blue-200 mb-10 max-w-3xl mx-auto leading-relaxed">
-          Book a free strategy session. We'll analyze your business, discuss your goals,<br></br> and
+          Book a free strategy session. We&apos;ll analyze your business, discuss your goals,<br></br> and
 show you exactly how we can help. No commitment required.
         </p>
         <a

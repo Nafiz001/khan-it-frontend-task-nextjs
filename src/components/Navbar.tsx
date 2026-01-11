@@ -6,7 +6,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="bg-blue-50 dark:bg-blue-950/30 pb-6">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <a className="flex items-center group" href="#">
@@ -17,7 +18,7 @@ export default function Navbar() {
               <div className="absolute bottom-0 right-0 w-2 h-2 bg-primary rounded-sm"></div>
               <div className="absolute inset-0 m-auto w-4 h-4 bg-primary rounded-sm"></div>
             </div>
-            <span className="text-3xl font-extrabold text-[#111827] dark:text-white tracking-tight">
+            <span className="text-5xl font-extrabold text-[#111827] dark:text-white tracking-tight">
               Khan <span className="text-primary">IT</span>
             </span>
           </a>
@@ -93,5 +94,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </div>
   );
 }

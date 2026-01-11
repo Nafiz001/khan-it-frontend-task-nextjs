@@ -74,13 +74,13 @@ export default function Services() {
   return (
     <section className="py-12">
       <div className="text-center max-w-3xl mx-auto mb-16 px-4">
-        <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold mb-6">
+        <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-600 text-[12px] font-semibold mb-6">
           Our Services
         </span>
-        <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
           Full-stack Digital Marketing Services
         </h2>
-        <p className="text-gray-500 dark:text-gray-400 text-lg">
+        <p className="text-gray-500 dark:text-gray-400 text-sm">
           We manage your complete digital presence so you can focus on your core business.
         </p>
       </div>

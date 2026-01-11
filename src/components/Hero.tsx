@@ -2,30 +2,32 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-      <div className="space-y-8 relative z-10">
-          <div className="relative">
-            <h1 className="text-5xl lg:text-[4rem] font-extrabold leading-[1.1] text-gray-900 dark:text-white tracking-tight">
-              Digital <span className="relative inline-block">
-                Marketing
-                <svg className="absolute -top-1 -right-8 w-12 h-12 text-orange-500" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
-                  <path d="M12 2L12 8M19 5L15 9M22 12L16 12" strokeLinecap="round" strokeLinejoin="round"></path>
-                </svg>
-              </span>{" "}
-              Agency in Bangladesh
-            </h1>
+    <div className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen bg-blue-50 dark:bg-blue-950/30 py-12 lg:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="space-y-8 relative z-10">
+            <div className="relative">
+              <h1 className="text-5xl lg:text-[4rem] font-extrabold leading-[1.4] text-gray-900 dark:text-white tracking-tight">
+                Digital <span className="relative inline-block">
+                  Marketing
+                  <svg className="absolute -top-1 -right-8 w-12 h-12 text-orange-500" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24">
+                    <path d="M12 2L12 8M19 5L15 9M22 12L16 12" strokeLinecap="round" strokeLinejoin="round"></path>
+                  </svg>
+                </span>{" "}
+                Agency in Bangladesh
+              </h1>
+            </div>
+            <p className="text-sm text-gray-500 dark:text-gray-400 max-w-lg leading-relaxed pb-4">
+              Khan IT (led by SEO expert Md Faruk Khan) helps businesses get 150% more leads and 2.5x higher conversions through integrated digital marketing and web design.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a className="bg-primary hover:bg-primary-hover text-white text-[17px] font-semibold py-3 px-8 rounded-lg transition-all shadow-xl hover:shadow-primary/30 text-center" href="#">
+                Book Your Free Consultation
+              </a>
+            </div>
           </div>
-          <p className="text-lg lg:text-xl text-gray-500 dark:text-gray-400 max-w-lg leading-relaxed">
-            Khan IT (led by SEO expert Md Faruk Khan) helps businesses get 150% more leads and 2.5x higher conversions through integrated digital marketing and web design.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a className="bg-primary hover:bg-primary-hover text-white text-lg font-semibold py-4 px-8 rounded-xl transition-all shadow-xl hover:shadow-primary/30 text-center" href="#">
-              Book Your Free Consultation
-            </a>
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-5 relative">
-          <div className="space-y-5 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 relative">
+            <div className="space-y-5">
             <div className="bg-purple-50 dark:bg-card-purple-dark/40 rounded-3xl p-6 shadow-soft hover:-translate-y-1 transition-transform duration-300 border border-purple-100 dark:border-purple-800">
               <div className="flex justify-between items-start mb-4">
                 <div className="w-12 h-12 bg-white dark:bg-purple-900 rounded-full flex items-center justify-center shadow-sm text-2xl">
@@ -65,7 +67,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="space-y-5">
+          <div className="space-y-5 mt-8">
             <div className="bg-blue-50 dark:bg-card-blue-dark/40 rounded-3xl p-6 shadow-soft hover:-translate-y-1 transition-transform duration-300 border border-blue-100 dark:border-blue-800 h-fit">
               <h3 className="font-bold text-gray-900 dark:text-white mb-4">Our Track Record</h3>
               <div className="space-y-3">
@@ -116,11 +118,13 @@ export default function Hero() {
                 <span className="material-symbols-rounded text-[18px]">star</span>
               </div>
               <p className="font-medium text-gray-800 dark:text-gray-200 text-sm leading-relaxed relative z-10">
-                "Their marketing strategies are simply outstanding"
+                &quot;Their marketing strategies are simply outstanding&quot;
               </p>
             </div>
           </div>
         </div>
+        </div>
       </div>
+    </div>
   );
 }
